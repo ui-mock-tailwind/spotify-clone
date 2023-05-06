@@ -30,9 +30,20 @@ function App() {
                         <div>Search bar</div>
                     </div>
                 </div>
-                <div className="bg-cyan-400 flex-1"> Music </div>
+                <div className=" flex flex-col ">
+                <div className="bg-cyan-400 flex-1 flex p-2"> 
+                <div className="flex-1">Browse</div>
+                <div className=" flex  itmes-center rounded-md border p-2 divide-x">
+                    <ChevronLeftIcon className=" h-5 w-5 text-gray-500"/>
+                    <ChevronRightIcon className=" h-5 w-5 text-gray-500"/>
+                </div>
+               
+                
+                 </div>
             </div>
-
+<div>x</div>
+<div>y</div>
+</div>
         </div>
         <div className="bg-blue-400 h-24">
             ABX
